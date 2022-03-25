@@ -1,0 +1,23 @@
+title: Safe Music
+description: Replaces some potentially problematic music with other songs from KH2.
+assets:
+- name: bgm\music059.win32.scd #A Fight to the Death
+  method: copy
+  source:
+  - name: bgm\music063.win32.scd
+    type: internal
+- name: bgm\music144.win32.scd #This is Halloween
+  method: copy
+  source:
+  - name: bgm\music090.win32.scd
+    type: internal
+- name: bgm\music155.win32.scd #He's a Pirate (No Intro)
+  method: copy
+  source:
+  - name: bgm\music063.win32.scd
+    type: internal
+- name: bgm\music530.win32.scd #He's a Pirate
+  method: copy
+  source:
+  - name: bgm\music063.win32.scd
+    type: internal
